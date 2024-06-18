@@ -2,7 +2,7 @@
 To implement auto-logout functionality in our Django application, we need to adjust your session settings. This can be achieved by setting session expiration parameters and ensuring the middleware handles session timeouts.
 
 ## 1. Configure Session Expiry in Settings:
-In your settings.py file, add or update the following settings to control session expiration:
+In `settings.py` file, add or update the following settings to control session expiration:
 ```python
 # Time in seconds (e.g., 1800 seconds = 30 minutes)
 SESSION_COOKIE_AGE = 1800  # Set your required time
