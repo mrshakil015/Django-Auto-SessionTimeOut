@@ -58,5 +58,22 @@ class SessionTimeoutMiddleware:
 
         response = self.get_response(request)
         return response
+```
+
+## Middleware File Structure:
+
+```python
+project_directory/
+    ├── project_directory/
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   ├── wsgi.py
+    ├── project_app/
+    │   ├── __init__.py
+    │   ├── models.py
+    │   ├── views.py
+    │   ├── middleware.py #This is middleware
+    ├── manage.py
 
 ```
